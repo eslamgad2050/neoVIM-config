@@ -42,6 +42,7 @@ packer.init({
 return packer.startup(function(use)
 	-- My plugins here
 	use("hkupty/iron.nvim")
+	use("jupyter-vim/jupyter-vim")
 
 	use({ "wbthomason/packer.nvim", commit = "00ec5adef58c5ff9a07f11f45903b9dbbaa1b422" }) -- Have packer manage itself
 	use({ "nvim-lua/plenary.nvim", commit = "968a4b9afec0c633bc369662e78f8c5db0eba249" }) -- Useful lua functions used by lots of plugins
